@@ -1,0 +1,84 @@
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+.card-body i.cursor-pointer{
+  cursor: pointer;
+}
+
+.img-responsive{
+  width: 100%;
+}
+
+.image-section .fa-solid{
+  position: absolute;
+}
+
+.image-section .fa-trash-can{
+  top:5px;
+  right: 30px;
+}
+
+.image-section .fa-pen-to-square{
+  top:5px;
+  right: 2px;
+}
+
+/* === signup ==== */
+
+.signup-form,
+.login-form {
+  width: 506px;
+  margin: 10px auto;
+  background: #fef;
+  padding: 21px;
+}
+
+.signup-form h2,
+.login-form h2{
+  text-align: center;
+  font-size: 26px;
+  font-weight: bold;
+  text-transform: uppercase;
+}
+
+/* === signup ==== */
+.contact input{
+  border: 0px;
+  border-bottom: 1px solid #ced4da;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
