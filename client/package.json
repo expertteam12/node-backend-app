@@ -1,6 +1,6 @@
 {
   "name": "client",
-  "homepage": "https://spkrapp.herokuapp.com/",
+  "homepage": "https://node-backend-app.onrender.com",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
