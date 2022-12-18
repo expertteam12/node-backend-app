@@ -2,7 +2,7 @@ import React, { useState } from 'react';
 import { useNavigate } from 'react-router-dom';
 
 const Login = (props) => {
-  const host = 'https://spkrapp.herokuapp.com';
+  const host = 'https://node-backend-app.onrender.com';
   const [credentials, setCredentials] = useState({ email: '', password: '' });
   let history = useNavigate();
 
